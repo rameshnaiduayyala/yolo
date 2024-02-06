@@ -1,7 +1,11 @@
-from ultralytics import YOLO
+# from ultralytics import YOLO
 
-model = YOLO('yolov8m.pt')
+# model = YOLO('yolov8m.pt')
 
-source = ('D:\\Object detection\\1.data_preparation\\test.jpg')
+# source = ('D:\\Object detection\\1.data_preparation\\test.jpg')
 
-results = model(source)
+# results = model(source)
+
+import streamlit as st
+
+st.write("hh")
